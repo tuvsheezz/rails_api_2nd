@@ -12,4 +12,6 @@ class User < ApplicationRecord
     token = User.generate_unique_secure_token
     update(authentication_token: token)
   end
+
+  has_one_attached :avatar
 end

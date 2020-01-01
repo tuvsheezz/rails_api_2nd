@@ -1,5 +1,6 @@
 class Api::V1::UsersController < ApplicationController
 
+  include ActionController::Serialization
   def facebook
     if params[:facebook_access_token]
       graph = Koala::Facebook::API.new(params[:facebook_access_token])
