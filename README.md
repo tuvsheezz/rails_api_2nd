@@ -1,4 +1,7 @@
-Yr n bol 1 heseg oroldvol ene hemjeend surna doo ntr hahaha.
+User authentication.
+2 jishee model, controller. 
+Facebook authentication.
+Cors
 
 Shine endpointuud nemeh bol
 1. rails g scaffold name attr-name:attr-type
@@ -9,3 +12,7 @@ Shine endpointuud nemeh bol
 6. edit routes as you do.
 7. gem-iin test-d bullet nemchihsn bga bolhoor N+1 problem ntr baival console deer gargaj ugnu.
 8. Tested heregleh data oruulh bol seeds-d jishee baigaa. Faker gem-g shalgaad nemj bolno.
+
+
+To-Do
+1. Rack-attack nemeh
