@@ -1,7 +1,24 @@
 User authentication.
-2 jishee model, controller. 
+2 jishee model, controller.
 Facebook authentication.
-Cors
+Cors orson baigaa.
+
+Local deeree ajilluulah bol.
+
+```sh
+install ruby-2.6.3 (rvm yr n bol zugeer.)
+
+git clone https://github.com/tuvsheezz/rails_api_2nd.git
+cd rails-api-2nd
+bundle install
+rails s
+```
+Postman-d
+```
+https://www.getpostman.com/collections/fbac3901d42d7a39a2cb
+```
+-g import hiigeed testleerei.
+
 
 Shine endpointuud nemeh bol
 1. rails g scaffold name attr-name:attr-type
