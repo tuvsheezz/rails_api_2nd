@@ -6,7 +6,7 @@ Cors orson baigaa.
 Local deeree ajilluulah bol.
 
 ```sh
-install ruby-2.6.3 (rvm yr n bol zugeer.)
+install ruby-2.6.5 (rvm yr n bol zugeer.)
 
 git clone https://github.com/tuvsheezz/rails_api_2nd.git
 cd rails-api-2nd

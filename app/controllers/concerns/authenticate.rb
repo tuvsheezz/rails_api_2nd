@@ -1,16 +1,20 @@
+# frozen_string_literal: true
+
 module Authenticate
   def current_user
-    auth_token = request.headers["AUTH-TOKEN"]
+    auth_token = request.headers['AUTH-TOKEN']
     return unless auth_token
+
     @current_user = User.find_by(authentication_token: auth_token)
   end
 
   def authenticate_with_token!
     return if current_user
-    json_response("Unauthenticated.", false, {}, :unauthorized)
+
+    json_response('Unauthenticated.', false, {}, :unauthorized)
   end
 
-  def correct_user user
+  def correct_user(user)
     user.id == current_user.id
   end
 end

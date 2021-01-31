@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class BookSerializer < ActiveModel::Serializer
   attributes :id, :title, :author, :image, :reviews_count
-    # :average_rating_of_book, :content_rating_of_book, :recommend_rating_of_book
+  # :average_rating_of_book, :content_rating_of_book, :recommend_rating_of_book
   has_many :reviews
 
   # def average_rating_of_book
